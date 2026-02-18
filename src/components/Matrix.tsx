@@ -33,7 +33,9 @@ function Matrix() {
         width: "80vh",
         height: "80vh",
       }}
-    ></div>
+    >
+      {getCells(matrix)}
+    </div>
   );
 }
 
