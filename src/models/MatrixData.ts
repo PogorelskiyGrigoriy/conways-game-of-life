@@ -1,5 +1,8 @@
-export type MatrixData = {
+export interface MatrixConfig {
   rows: number;
-  cols: number;
-  tickInterval: number;
-};
+  columns: number;
+  ticInterval: number;
+}
+
+export type Cell = 0 | 1
+
